@@ -5,7 +5,10 @@ const Service = () => {
     return (
         <div>
             <Menubar></Menubar>
-            <h1>hi </h1>
+            <div className='container'>
+                <h3 className='text-orchid text-center'>My Service</h3>
+
+            </div>
         </div>
     );
 };

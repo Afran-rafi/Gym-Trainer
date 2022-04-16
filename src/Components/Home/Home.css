@@ -2,6 +2,7 @@
     height: 100vh;
     background-image: url('../../Images/Background.png');
     background-size: cover;
+    width: 100%;
 }
 
 .font-size{
@@ -18,8 +19,7 @@
 }
 
 .btn-orchid:hover{
-    background-color: darkorchid;
-    opacity: 0.8;
+    background-color: darkmagenta;
 }
 
 .margin-top{

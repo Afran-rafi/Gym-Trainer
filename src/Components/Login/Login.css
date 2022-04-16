@@ -27,3 +27,17 @@ hr{
 .font{
     font-size: 11px;
 }
+
+.text-orchid{
+    color: darkorchid;
+}
+
+/* .btn-darkOrchid{
+    background-color: darkorchid;
+    color: white;
+    border: none;
+}
+
+.btn-darkOrchid:hover{
+    background-color: darkmagenta;
+} */

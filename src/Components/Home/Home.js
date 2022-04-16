@@ -1,5 +1,6 @@
 import React from 'react';
 import Menubar from '../Menubar/Menubar';
+import Service from '../Service/Service';
 import './Home.css'
 
 const Home = () => {
