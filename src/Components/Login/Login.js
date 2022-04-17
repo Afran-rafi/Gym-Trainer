@@ -49,7 +49,7 @@ const Login = () => {
             <Menubar></Menubar>
             <div className='login-container'>
                 <form onSubmit={handleLogin} className='login mt-5 p-3 shadow'>
-                    <h3 className='text-center mt-3 text-primary'>Login</h3>
+                    <h3 className='text-center mt-3 text-orchid'>Login</h3>
                     <div className='d-flex justify-content-center flex-column line mt-4'>
                         <label htmlFor="email">Email</label> <br />
                         <input ref={emailRef} type="email" name="" id="1" required />
