@@ -3,6 +3,7 @@ import { useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import { useNavigate } from 'react-router-dom';
 import auth from '../../firebase-init';
 import google from '../../Images/Google.png'
+import './SocialSignIn.css'
 
 const SocialSignIn = () => {
     const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
@@ -22,8 +23,8 @@ const SocialSignIn = () => {
     return (
         <div>
             {errorElement}
-            <div className='d-flex justify-content-around'>
-                <button className='border-0' onClick={() => signInWithGoogle()}><img src={google} alt="" /></button>
+            <div className='d-flex justify-content-center align-items-center'>
+                <button className=' border-0 bg-white fw-bolder' onClick={() => signInWithGoogle()}><img src={google} alt="" />Google Sign IN</button>
             </div >
         </div>
     );
