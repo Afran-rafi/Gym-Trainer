@@ -1,8 +1,8 @@
 # Gym Trainer
 
-## [Live Link]()
+## [Live Link](https://assignment-10-b0017.web.app/)
 
-Live Link: []()
+Live Link: [https://assignment-10-b0017.web.app/](https://assignment-10-b0017.web.app/)
 
 ### `Website Introduction`
 
