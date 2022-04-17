@@ -5,7 +5,6 @@ import Menubar from '../Menubar/Menubar';
 const SignUp = () => {
     return (
         <div>
-            <Menubar></Menubar>
             <form onSubmit className='login-container'>
                 <div className='login mt-5 p-3 shadow'>
                     <h3 className='text-center mt-3 text-primary'>Sign UP</h3>

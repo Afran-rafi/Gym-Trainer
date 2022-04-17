@@ -5,7 +5,6 @@ import './Login.css'
 const Login = () => {
     return (
         <div>
-            <Menubar></Menubar>
             <div className='login-container'>
                 <form className='login mt-5 p-3 shadow'>
                     <h3 className='text-center mt-3 text-primary'>Login</h3>
