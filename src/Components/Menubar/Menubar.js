@@ -2,8 +2,15 @@ import React from 'react';
 import CustomLink from '../CustomLink/CustomLink';
 import './Menubar.css'
 import logo from '../../Images/logo.png'
+import { useAuthState } from 'react-firebase-hooks/auth';
+import auth from '../../firebase-init';
+import { signOut } from 'firebase/auth';
 
 const Menubar = () => {
+    const [user] = useAuthState(auth)
+    const logout = () => {
+        signOut(auth);
+    }
     return (
         <nav className="navbar navbar-expand-lg navbar-dark shadow">
             <div className="container">
@@ -20,7 +27,7 @@ const Menubar = () => {
                             <CustomLink to='/'>Home</CustomLink>
                         </li>
                         <li className="nav-item">
-                            <CustomLink to='/service'>Services</CustomLink>
+                            <CustomLink to='/services'>Services</CustomLink>
                         </li>
                         <li className="nav-item">
                             <CustomLink to='/blogs'>Blogs</CustomLink>
@@ -29,7 +36,10 @@ const Menubar = () => {
                             <CustomLink to='/about'>About</CustomLink>
                         </li>
                         <li className="nav-item btn-margin">
-                            <CustomLink className='btn-pink rounded' to='/login'>Login</CustomLink>
+                            {user ?
+                                <button onClick={logout} className='btn-pink fw-bolder'>Sign Out</button>
+                                :
+                                <CustomLink className='btn-pink rounded' to='/login'>Login</CustomLink>}
                         </li>
                     </ul>
                 </div>

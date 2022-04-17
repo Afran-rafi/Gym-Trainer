@@ -2,43 +2,43 @@
     {
       "id": "625b216695bd8df3d7b76aab",
       "img": "serviceImage/abs-workout2.png",
-      "name": "",
-      "price": "",
+      "name": "Abs Workout",
+      "price": 80,
       "description": ""
     },
     {
       "id": "625b216607b87211aec773a8",
-      "img": "serviceImage/arms-workout1.png",
-      "name": "",
-      "price": "",
+      "img": "serviceImage/arms-workout2.png",
+      "name": "Arms Workout",
+      "price": 50,
       "description": ""
     },
     {
       "id": "625b21665b969c93762b74ec",
       "img": "serviceImage/Leg workout.png",
-      "name": "",
-      "price": "",
+      "name": "Leg Workout",
+      "price": 60,
       "description": ""
     },
     {
       "id": "625b21663339c35ddb53554d",
       "img": "serviceImage/chest-workout.png",
-      "name": "",
-      "price": "",
+      "name": "Chest Workout",
+      "price": 40,
       "description": ""
     },
     {
       "id": "625b2166d8dbf1cd18d65f82",
       "img": "serviceImage/running-workout.png",
-      "name": "",
-      "price": "",
+      "name": "Running Workout",
+      "price": 70,
       "description": ""
     },
     {
       "id": "625b21661e88f0462f414b91",
       "img": "serviceImage/back-workout.png",
-      "name": "",
-      "price": "",
+      "name": "Back Workout",
+      "price": 55,
       "description": ""
     }
   ]
