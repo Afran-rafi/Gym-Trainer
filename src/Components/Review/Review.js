@@ -13,7 +13,7 @@ const Review = () => {
                     <div className="col-lg-4 ">
                         <div className="card bg-1">
                             <div>
-                                <p className='text-center'><i class="fa-solid fa-quote-left"></i> Afran is a great . The Best Trainer I've Ever metttttttt!! <i class="fa-solid fa-quote-right"></i></p>
+                                <p className='text-center'><i className="fa-solid fa-quote-left"></i> Afran is a great . The Best Trainer I've Ever metttttttt!! <i className="fa-solid fa-quote-right"></i></p>
                             </div>
                             <div className='d-flex justify-content-center'>
                                 <img className='rounded-circle' src={pic1} alt="" />
@@ -24,7 +24,7 @@ const Review = () => {
                     <div className="col-lg-4 ">
                         <div className="card bg-2">
                             <div>
-                                <p className='text-center'><i class="fa-solid fa-quote-left"></i> He is lovely boy and very sweet and best trainer babeeee!! <i class="fa-solid fa-quote-right"></i></p>
+                                <p className='text-center'><i className="fa-solid fa-quote-left"></i> He is lovely boy and very sweet and best trainer babeeee!! <i className="fa-solid fa-quote-right"></i></p>
                             </div>
                             <div className='d-flex justify-content-center'>
                                 <img className='rounded-circle' src={pic3} alt="" />
@@ -35,7 +35,7 @@ const Review = () => {
                     <div className="col-lg-4 ">
                         <div className="card bg-3">
                             <div>
-                                <p className='text-center'><i class="fa-solid fa-quote-left"></i> He is a very good person and Awesome Trainer <i class="fa-solid fa-quote-right"></i></p>
+                                <p className='text-center'><i className="fa-solid fa-quote-left"></i> He is a very good person and Awesome Trainer <i className="fa-solid fa-quote-right"></i></p>
                             </div>
                             <div className='d-flex justify-content-center'>
                                 <img className='rounded-circle' src={pic2} alt="" />
@@ -45,7 +45,7 @@ const Review = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 
