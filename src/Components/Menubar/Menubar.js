@@ -27,9 +27,6 @@ const Menubar = () => {
                             <CustomLink to='/'>Home</CustomLink>
                         </li>
                         <li className="nav-item">
-                            <CustomLink to='/services'>Services</CustomLink>
-                        </li>
-                        <li className="nav-item">
                             <CustomLink to='/blogs'>Blogs</CustomLink>
                         </li>
                         <li className="nav-item">

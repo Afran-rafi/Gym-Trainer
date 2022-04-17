@@ -3,6 +3,7 @@ import { useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-
 import { useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../firebase-init';
 import CustomLink from '../CustomLink/CustomLink';
+import Menubar from '../Menubar/Menubar';
 import SocialSignIn from '../SocialSignIn/SocialSignIn';
 import './Login.css'
 
@@ -43,6 +44,7 @@ const Login = () => {
     }
     return (
         <div>
+            <Menubar></Menubar>
             <div className='login-container'>
                 <form onSubmit={handleLogin} className='login mt-5 p-3 shadow'>
                     <h3 className='text-center mt-3 text-primary'>Login</h3>

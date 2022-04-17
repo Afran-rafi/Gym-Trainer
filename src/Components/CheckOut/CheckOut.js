@@ -1,9 +1,13 @@
 import React from 'react';
+import Menubar from '../Menubar/Menubar';
 
 const CheckOut = () => {
     return (
         <div>
-            <h1>Hi checkout</h1>
+            <Menubar></Menubar>
+            <div>
+                <h1>Hi checkout</h1>
+            </div>
         </div>
     );
 };

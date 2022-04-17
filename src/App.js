@@ -5,7 +5,7 @@ import Blogs from './Components/Blogs/Blogs';
 import CheckOut from './Components/CheckOut/CheckOut';
 import Home from './Components/Home/Home';
 import Login from './Components/Login/Login';
-import Menubar from './Components/Menubar/Menubar';
+import Footer from './Components/Footer/Footer';
 import PageError from './Components/PageError/PageError';
 import RequireAuth from './Components/RequireAuth/RequireAuth';
 import ServiceDetails from './Components/ServiceDetails/ServiceDetails';
@@ -15,7 +15,6 @@ import SignUp from './Components/SignUp/SignUp';
 function App() {
   return (
     <div className="App">
-      <Menubar></Menubar>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/services' element={<Services></Services>}></Route>
@@ -27,6 +26,9 @@ function App() {
         <Route path='/signUp' element={<SignUp></SignUp>}></Route>
         <Route path='*' element={<PageError></PageError>}></Route>
       </Routes>
+      <div className='mt-5'>
+        <Footer></Footer>
+      </div>
     </div>
   );
 }

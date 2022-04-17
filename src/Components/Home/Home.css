@@ -1,0 +1,27 @@
+.main-container{
+    height: 100vh;
+    background-image: url('../../Images/arms-workout1.png');
+    background-size: cover;
+}
+
+.font-size{
+    font-size: 60px;
+    color: white;
+    opacity: 0.9;
+}
+
+.btn-orchid{
+    background-color: darkorchid;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+}
+
+.btn-orchid:hover{
+    background-color: darkorchid;
+    opacity: 0.8;
+}
+
+.margin-top{
+    margin-top: 7%;
+}

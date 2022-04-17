@@ -20,7 +20,7 @@ const Service = (props) => {
                         <h6>Price: ${price}</h6>
                         <p>{description}</p>
                     </Card.Body>
-                    <button onClick={() => handleDetails(id)} className='border-0 p-2 btn-primary'>Book: {name} </button>
+                    <button onClick={() => handleDetails(id)} className='border-0 p-2 btn-primary'>Add:- {name} </button>
                 </Card>
             </CardGroup>
         </div>
