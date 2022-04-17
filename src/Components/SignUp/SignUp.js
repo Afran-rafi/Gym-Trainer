@@ -13,7 +13,7 @@ const SignUp = () => {
 
     const navigate = useNavigate()
 
-    const [createUserWithEmailAndPassword, user, loading, error] = useCreateUserWithEmailAndPassword(auth);
+    const [createUserWithEmailAndPassword, user, loading, error] = useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true });
 
     const handleEmail = (event) => {
         setEmail(event.target.value)
@@ -24,9 +24,9 @@ const SignUp = () => {
     const handleConfirmPassword = (event) => {
         setCPassword(event.target.value)
     }
-    const handleSignUp = (event) => {
+    const handleSignUp = async (event) => {
         event.preventDefault()
-        createUserWithEmailAndPassword(email, password, cPassword)
+        await createUserWithEmailAndPassword(email, password, cPassword)
     }
     if (user) {
         navigate('/login')

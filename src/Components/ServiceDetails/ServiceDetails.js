@@ -8,8 +8,9 @@ const ServiceDetails = () => {
     return (
         <div>
             <Menubar></Menubar>
-            <div>
+            <div style={{ height: '72vh' }} className='container'>
                 <h2>Welcome to detail: {serviceId}</h2>
+                <h4>{ }</h4>
                 <div className='text-center'>
                     <CustomLink to="/checkout">
                         <button className='btn btn-primary'>Proceed Checkout</button>

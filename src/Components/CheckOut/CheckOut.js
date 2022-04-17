@@ -5,7 +5,7 @@ const CheckOut = () => {
     return (
         <div>
             <Menubar></Menubar>
-            <div>
+            <div style={{ height: '72vh' }} className='container'>
                 <h1>Hi checkout</h1>
             </div>
         </div>

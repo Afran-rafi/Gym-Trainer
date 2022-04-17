@@ -10,7 +10,7 @@ const SocialSignIn = () => {
     const navigate = useNavigate();
 
     if (user) {
-        navigate('/')
+        navigate('/checkout')
     }
 
     let errorElement

@@ -6,6 +6,8 @@ import CustomLink from '../CustomLink/CustomLink';
 import Menubar from '../Menubar/Menubar';
 import SocialSignIn from '../SocialSignIn/SocialSignIn';
 import './Login.css'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Login = () => {
     const emailRef = useRef('')
@@ -31,7 +33,7 @@ const Login = () => {
     const resetPassword = async () => {
         const email = emailRef.current.value
         await sendPasswordResetEmail(email);
-        alert('Sent Email . Please check your email dear.');
+        toast('Sent Email . Please check your email dear.');
     }
 
     let errorElement
@@ -71,6 +73,7 @@ const Login = () => {
                         <hr />
                     </div>
                     <SocialSignIn></SocialSignIn>
+                    <ToastContainer />
                 </form>
 
             </div>
