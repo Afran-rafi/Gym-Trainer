@@ -6,6 +6,7 @@ import Menubar from '../Menubar/Menubar';
 const PageError = () => {
     return (
         <div>
+            <Menubar></Menubar>
             <div className='d-flex justify-content-center'>
                 <img className='img-fluid img-size' src={pageError} alt="" />
             </div>
