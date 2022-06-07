@@ -13,8 +13,9 @@ Live Link: [https://assignment-10-b0017.web.app/](https://assignment-10-b0017.we
    `react-router`
    `firebase`
    etc....
-3. Many components create and fetch data.....then ,
-4. login and signup create and
-5. deploy my website .......
+3. Single page application (SPA).
+4. Some dynamic charts have been implemented on this website. Which provides information about certain statistics and information.
+5. Due to the use of React Router, it does not reload when it goes from one page to another.
+6. deploy my website .......
 
 `Finally Assignment Done`
